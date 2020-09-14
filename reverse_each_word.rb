@@ -1,5 +1,6 @@
 def reverse_each_word(str)
-  str.split(" ").map { |word| word.reverse}
+  str_a = str.split(" ")
+  str_a.map { |word| word.reverse}
 end
 
 #new_str = ""
